@@ -55,7 +55,7 @@ function CreateTorus({
     const toursParticle = new THREE.TorusGeometry(size, 1, 1, 100);
     particlesRef.current.geometry = toursParticle;
     particlesRef.current.rotation.set(rotation[0], rotation[1], rotation[2]);
-  }, [rotation]);
+  }, [rotation, size]);
 
   useFrame(() => {
     if (particlesRef.current) {
