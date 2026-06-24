@@ -103,7 +103,7 @@ function CreateTorus2({ speed = 0.001 }) {
   return (
     <>
       <points ref={particlesRef}>
-        <pointsMaterial size={0.02} color={"lightgreen"} />
+        <pointsMaterial size={0.02} color={"gray"} />
       </points>
       <ambientLight intensity={10} />
     </>

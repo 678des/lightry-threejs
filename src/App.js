@@ -39,19 +39,19 @@ function App() {
         <CreateTorus
           rotation={[(2 * Math.PI) / 3, Math.PI / 6, 0]}
           position={[0, 2, 0]}
-          color={"yellow"}
+          color={"blue"}
           speed={speed}
         />
         <CreateTorus
           rotation={[(4 * Math.PI) / 3, Math.PI / 6, 0]}
           position={[-2, 0, 0]}
-          color={"yellow"}
+          color={"red"}
           speed={speed}
         />
         <CreateTorus
           rotation={[(5 * Math.PI) / 3, Math.PI / 6, 0]}
           position={[-1.5, -1.5, 0]}
-          color={"yellow"}
+          color={"green"}
           speed={speed}
         />
 

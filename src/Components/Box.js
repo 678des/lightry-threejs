@@ -17,7 +17,7 @@ function Box({ speed = 0.01, ...props }) {
       <mesh {...props} ref={ref}>
         <boxGeometry args={[0.5, 0.5, 0.5]} />
         {/* <meshStandardMaterial map={texture} /> */}
-        <meshStandardMaterial color="#00031b" />
+        <meshStandardMaterial color="#020019" />
       </mesh>
     </>
   );
