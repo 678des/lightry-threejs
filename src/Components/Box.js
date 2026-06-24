@@ -1,11 +1,9 @@
-import { createContext, useRef, useContext } from "react";
-import { TextureLoader } from "three";
-import { useFrame, useLoader } from "@react-three/fiber";
+import { useRef } from "react";
+//
+import { useFrame } from "@react-three/fiber";
 
 function Box({ speed = 0.01, ...props }) {
   const ref = useRef();
-  //const texture = useLoader(TextureLoader, "27710242_s"); // テクスチャをロード
-
   useFrame(() => {
     ref.current.rotation.x += speed;
     ref.current.rotation.z += speed;

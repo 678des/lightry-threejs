@@ -1,14 +1,14 @@
 import { Canvas } from "@react-three/fiber";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { OrbitControls } from "@react-three/drei";
 
 import Box from "./Components/Box";
-import Camera from "./Components/Camera";
+//import Camera from "./Components/Camera";
 import { Particles, CreateTorus, CreateTorus2 } from "./Components/Particle";
 import "./App.css";
 
 function App() {
-  const [autoCam, setOutCam] = useState(true);
+  //const [autoCam, setOutCam] = useState(true);
   const [isHover, setHover] = useState(false);
   const speed = isHover ? 0.1 : 0.05;
 
